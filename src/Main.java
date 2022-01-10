@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-      int TicketPrice = 2000; // Объявляете переменные для входных данных и
-      int OneMilli = 20;  // параметров программы: одну для хранения
-      int bonus = TicketPrice/OneMilli; // стоимости билета, другую для хранения количества
+      int ticketPrice = 2000; // Объявляете переменные для входных данных и
+      int oneMilli = 20;  // параметров программы: одну для хранения
+      int bonus = ticketPrice/oneMilli; // стоимости билета, другую для хранения количества
         System.out.println((bonus) + " милли");  // рублей для одной бонусной милли
 
         // Рассчитываете количество бонусных милль, используя
